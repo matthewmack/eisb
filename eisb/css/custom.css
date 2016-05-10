@@ -103,7 +103,7 @@ ul.smenu li {
   margin-right: 7px;
 }
 .section-container.accordion>section>.title a{
-  white-space:initial;
+  white-space:pre-line;
 }
 .smenu .active a{
   color:#cccccc;
