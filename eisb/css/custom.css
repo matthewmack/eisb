@@ -17,7 +17,7 @@ a{
     border-radius: 8px;
 }
 .blue-bar {
-  background:#064277;
+  background:#021323;
   height:35px;
   font-weight: 200;
 }
@@ -49,7 +49,7 @@ ul.sm-top-menu li {
 .large-12.header-area {
   min-height: 110px;
   padding-top: 2em;
-  background: #f2f2f2;
+  background: #ffffff;
 }
 .search-nav button {
   display:none;
@@ -85,8 +85,14 @@ input#site-search-top {
 .top-bar.expanded .toggle-topbar a span {
     -webkit-box-shadow: 0 10px 0 1px #888,0 16px 0 1px #888,0 22px 0 1px #888;
     box-shadow: 0 10px 0 1px #888,0 16px 0 1px #888,0 22px 0 1px #888;
-    margin-top: -114px;
+
     color:#ffffff;
+}
+.expanded .toggle-topbar.menu-icon {
+    right: 15px;
+    top: 50%;
+    margin-top: -173px;
+    padding-left: 40px;
 }
 ul.smenu {
   list-style-type: none;
@@ -111,7 +117,7 @@ ul.smenu li {
   padding:.5em;
 }
 .sidebar input.submit {
-    background: green;
+    background: #008000;
     color: white;
     font-size: 17px;
     border: 1px solid #024102;
@@ -129,7 +135,7 @@ p.more-info {
 }
 .footer{
   padding-top:1em;
-  background: #064277;
+  background: #021323;
   min-height:300px;
   color:#ffffff;
   padding-bottom:1em;
