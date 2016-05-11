@@ -2,23 +2,23 @@ h1 {
   font-size:24px;
   color:#064277;
 }
-h2{
+h2 {
   font-size:21px;
   color:#064277 !important;
 }
-a{
+a {
   color:#064277;
 }
-a:hover{
+a:hover {
   text-decoration:underline;
   color:#064277;
 }
-.font-14{
+.font-14 {
   font-size:14px;
 }
 .panel.radius {
-    -webkit-border-radius: 8px;
-    border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
 }
 .blue-bar {
   background:#021323;
@@ -40,12 +40,11 @@ ul.sm-top-menu li {
 }
 .follow-share.share-me ul {
   list-style-type:none;
-   text-align:right;
+  text-align:right;
 }
 .follow-share.share-me li {
   display:inline;
   margin-left: 0.5em;
- 
 }
 .follow-share.share-me li img {
   max-width: 22px;
@@ -87,91 +86,161 @@ input#site-search-top {
   z-index:1300;
 }
 .top-bar.expanded .toggle-topbar a span {
-    -webkit-box-shadow: 0 10px 0 1px #888,0 16px 0 1px #888,0 22px 0 1px #888;
-    box-shadow: 0 10px 0 1px #888,0 16px 0 1px #888,0 22px 0 1px #888;
-
-    color:#ffffff;
+  -webkit-box-shadow: 0 10px 0 1px #888, 0 16px 0 1px #888, 0 22px 0 1px #888;
+  box-shadow: 0 10px 0 1px #888, 0 16px 0 1px #888, 0 22px 0 1px #888;
+  color:#ffffff;
 }
 .expanded .toggle-topbar.menu-icon {
-    right: 15px;
-    top: 50%;
-    margin-top: -173px;
-    padding-left: 40px;
+  right: 15px;
+  top: 50%;
+  margin-top: -173px;
+  padding-left: 40px;
 }
 ul.smenu {
   list-style-type: none;
-      margin-top: -20px;
+  margin-top: -20px;
 }
 ul.smenu li {
   display: inline;
   margin-right: 7px;
 }
-.section-container.accordion>section>.title a{
+.section-container.accordion>section>.title a {
   white-space:pre-line;
 }
-.smenu .active a{
+.smenu .active a {
   color:#cccccc;
 }
-.main-body{
+.main-body {
   background:#f9f9f9;
 }
-.sidebar{
+.sidebar {
   background:#e2e2e2;
   margin-top:2em;
   padding:.5em;
 }
+button.submit,
 .sidebar input.submit {
-    background: #008000;
-    color: white;
-    font-size: 17px;
-    border: 1px solid #024102;
-    padding: .5em 1em;
+  background: #008000;
+  color: white;
+  font-size: 17px;
+  border: 1px solid #024102;
+  padding: .5em 1em;
 }
-.sidebar input.grey-button{
+.sidebar input.grey-button {
   background: #cccccc;
-    color: black;
-    font-size: 17px;
-    border: 1px solid #7B827B;
-    padding: .5em 1em;
+  color: black;
+  font-size: 17px;
+  border: 1px solid #7B827B;
+  padding: .5em 1em;
 }
 p.more-info {
-    font-size: 13px;
+  font-size: 13px;
 }
-.footer{
+.footer {
   padding-top:1em;
   background: #021323;
   min-height:300px;
   color:#ffffff;
   padding-bottom:1em;
 }
-.footer a{
+.footer a {
   color:#ffffff;
 }
-.top-footer-area a{
+.top-footer-area a {
   color:#ffffff;
 }
 .footer ul,
-.footer li{
+.footer li {
   list-style-type:none;
 }
-.footer .menu-header{
+.footer .menu-header {
   font-weight:bold;
   font-size:19px;
-  
 }
-.footer .menu-header ul{
+.footer .menu-header ul {
   font-weight:normal;
   font-size:15px;
   line-height:1.7;
   margin-top:1em;
 }
-.bottom-links{
+.bottom-links {
   font-size:12px;
   padding-top: 77px;
   text-align:center;
 }
-@media all and (max-width:768px){
-  .bottom-links{
-    padding-top:10px;
-  }
+.btm-logo{
+  padding-bottom:10px;
 }
+@media all and (max-width:768px) {
+ .bottom-links {
+ padding-top:10px;
+}
+}
+.search-button {
+  background-image: url(../images/search-icon.png);
+  height: 25px;
+  width: 25px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#search-button {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+#search-nav {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1301;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding: 2em 1em;
+  top: 0;
+}
+#search-nav .block {
+  background-color: white;
+  padding: 2em 1em;
+  margin: 0 auto;
+  width: 80%;
+  border-radius: 8px;
+  border: 3px solid #265e2e;
+}
+#search-nav inline label {
+  width: 100%;
+  float: left;
+}
+#search-nav #edit-search-block-form-1 {
+  width: 100%;
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+#search-nav #edit-submit {
+  background-color: #265e2e;
+  color: white;
+  font-size: 1.3em;
+  width: 100%;
+  border-radius: 8px;
+  padding: .2em 1em;
+}
+#search-close {
+  margin-top: 1em;
+}
+.searchbar-close {
+  color: #ffffff;
+  background-color: #D83C3C;
+  text-align: center;
+  padding: 1em;
+}
+input:focus::-webkit-input-placeholder {
+color:transparent;
+}
+input:focus:-moz-placeholder {
+color:transparent;
+} /* Firefox 18- */
+input:focus::-moz-placeholder {
+color:transparent;
+} /* Firefox 19+ */
+input:focus:-ms-input-placeholder {
+color:transparent;
+} /* oldIE ;) */

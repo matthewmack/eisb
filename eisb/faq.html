@@ -52,7 +52,7 @@
       <div class="search-nav">
         <form class="site-search-form" action="wc.dll?cptest1~eisb~search" method="post">
           <div class="labelinput">
-            <input id="site-search-top" class="text site-search" type="text" value="search" name="searchterm" origval="search" />
+            <input id="site-search-top" class="text site-search" type="text"  name="searchterm" placeholder="search" />
             <button name="submit" type="submit" value="go"></button>
           </div>
         </form>
@@ -60,7 +60,10 @@
     </div>
   </div>
   <!-- end large-12 header-area -->
-  
+  <div id="search-button" 
+        onclick="document.getElementById('search-nav').style.display = 'block';" >
+    <div class="search-button"></div>
+  </div>
   <nav class="top-bar" data-topbar>
     <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
     <section class="top-bar-section">
@@ -346,7 +349,7 @@
         </ul>
       </div>
     </div>
-    <div class="large-4 columns hide-for-small font-14"> <img src="images/logo-bottom.jpg" style="mix-blend-mode: lighten;" /><br/>
+    <div class="large-4 columns hide-for-small font-14"> <img  src="images/logo-bottom.jpg" /><br/>
       <br/>
       SAN FRANCISCO ELECTRICAL WORKERS<br/>
       720 Market Street, Suite 700<br/>
@@ -354,7 +357,7 @@
       <a href="tel:+1415-263-3670">Call Us 415-263-3670</a> </div>
     <div class="large-4 columns bottom-links"> <a href="contact.htm">Contact</a> | <a href="terms-of-use.htm">Terms of Use/Disclaimer</a> | <a href="privacy-policy.htm">Privacy Policy</a></div>
     <div class="large-4 columns show-for-small"> <br/>
-      <img src="images/logo-bottom.jpg"/><br/>
+      <img src="images/logo-bottom.jpg" class="btm-logo"/><br/>
       SAN FRANCISCO ELECTRICAL WORKERS<br/>
       720 Market Street, Suite 700<br/>
       San Francisco, CA 94102-2509<br/>
@@ -365,4 +368,15 @@
 </div>
 <!--end footer -->
 </body>
+<div id="search-nav" >
+  <form class="site-search-form" action="wc.dll?cptest1~eisb~search" method="post">
+    <div class="labelinput">
+      <input id="site-search-top" class="text site-search" type="text"  name="searchterm" placeholder="search" />
+      <button name="submit" type="submit" class="submit" value="go">Search</button>
+    </div>
+  </form>
+  <div id="search-close" onclick="document.getElementById('search-nav').style.display = 'none';">
+    <div class="searchbar-close">Cancel</div>
+  </div>
+</div>
 </html>
