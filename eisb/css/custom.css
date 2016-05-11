@@ -176,6 +176,11 @@ p.more-info {
  padding-top:10px;
 }
 }
+@media all and (min-width:768px){
+  .search-button{
+    display:none;
+  }
+}
 .search-button {
   background-image: url(../images/search-icon.png);
   height: 25px;
