@@ -13,6 +13,18 @@ a:hover {
   text-decoration:underline;
   color:#064277;
 }
+ul,
+ol,
+dl {
+  font-size: 1em;
+  line-height: 1.6;
+  margin-bottom: 1.25em;
+  list-style-position: inside;
+  font-family: inherit;
+}
+th {
+  background: #cccccc;
+}
 .font-14 {
   font-size:14px;
 }
@@ -168,7 +180,7 @@ p.more-info {
   padding-top: 77px;
   text-align:center;
 }
-.btm-logo{
+.btm-logo {
   padding-bottom:10px;
 }
 @media all and (max-width:768px) {
@@ -176,10 +188,10 @@ p.more-info {
  padding-top:10px;
 }
 }
-@media all and (min-width:768px){
-  .search-button{
-    display:none;
-  }
+@media all and (min-width:768px) {
+ .search-button {
+ display:none;
+}
 }
 .search-button {
   background-image: url(../images/search-icon.png);
@@ -249,3 +261,42 @@ color:transparent;
 input:focus:-ms-input-placeholder {
 color:transparent;
 } /* oldIE ;) */
+.button-group a.small.button.active {
+  background: #f2f2f2;
+  color: #000000;
+}
+.button-group .button {
+  background:rgba(6, 66, 119, 0.70);
+}
+li.normal {
+  width: 100%;
+  float: left;
+  list-style-type:none;
+}
+li.normal h3 {
+  width:35%;
+  float:left;
+  padding:0 10px;
+  font-size:18px;
+}
+.tabitem-content {
+  width: 65%;
+  float: left;
+  padding:0 10px;
+}
+@media all and (max-width:480px) {
+ li.normal h3 {
+ width:100%;
+ float:left;
+ padding:0 10px;
+ font-size:18px;
+}
+.tabitem-content {
+ width: 100%;
+ float: left;
+ padding:0 10px;
+}
+.button-group.even-4 li {
+ width: 100%;
+}
+}
