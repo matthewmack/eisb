@@ -301,3 +301,9 @@ li.normal h3 {
  width: 50%;
 }
 }
+li.headalt {
+    list-style-type: none;
+}
+li.headalt h3{
+    color:#064277;
+}
